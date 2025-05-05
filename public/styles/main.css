@@ -1,0 +1,25 @@
+body{
+    background-color: #87ceeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    
+
+}
+h1{
+    text-align: center;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: 'Satisfy', cursive;
+    font-size: clamp(3rem, 5vw, 6rem);
+
+
+}

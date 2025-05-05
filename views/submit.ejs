@@ -1,0 +1,10 @@
+<%- include("partials/header.ejs") %>
+
+<% if (firstName && lastName && message && password) { %>
+    <h1><%= firstName + " " + lastName %></h1>
+    <h2><%= message %></h2>
+    <h3><%= password %></h3>
+  <% } %>
+  
+
+<%- include("partials/footer.ejs") %>

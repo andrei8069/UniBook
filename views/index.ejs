@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs") %>
+
+<h1>A social app for uni students</h1><br>
+<main>
+
+    <form action="/submit" method = "POST" >
+        <label for="firstName">First name:</label><br>
+        <input type="text" name = "firstName" placeholder="First name" required><br>
+        <label for="lastName">Last name:</label><br>
+        <input type="text" name = "lastName" placeholder="Last name" ><br>
+        <label for="yourData">Something special</label><br>
+        <textarea id="mesaj" name="mesaj" rows="5" cols="40" placeholder="Something that bothered you..." required></textarea><br>
+        <label for="password">Password</label><br>
+        <input type="password" name = "password" placeholder="Password"><br>
+        <input type="submit" value = "Submit">
+    
+    </form>
+</main>
+
+<%- include("partials/footer.ejs") %>
+
+
