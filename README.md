@@ -1,1 +1,7 @@
-In this project I want to make a website for students
+# 📘 UniBook
+
+UniBook is a Node.js + Express application with EJS templating that allows users to submit data via a form and see the results dynamically rendered.
+
+## 🌐 Live Demo
+
+🔗 [Check the app live on Render](https://unibook.onrender.com)
