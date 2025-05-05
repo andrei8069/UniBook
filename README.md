@@ -4,4 +4,4 @@ UniBook is a Node.js + Express application with EJS templating that allows users
 
 ## 🌐 Live Demo
 
-🔗 [Check the app live on Render](https://unibook.onrender.com)
+🔗 [Check the app live on Render](https://unibook-wg52.onrender.com)
